@@ -26,7 +26,7 @@
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <!-- Titel und Schalter werden fÃ¼r eine bessere mobile Ansicht zusammengefasst -->
+    <!-- Titel und Schalter werden für eine bessere mobile Ansicht zusammengefasst -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Navigation ein-/ausblenden</span>
@@ -37,13 +37,13 @@
       <a class="navbar-brand" href="#">Sneaker Shop</a>
     </div>
 
-    <!-- Alle Navigationslinks, Formulare und anderer Inhalt werden hier zusammengefasst und kÃ¶nnen dann ein- und ausgeblendet werden -->
+    <!-- Alle Navigationslinks, Formulare und anderer Inhalt werden hier zusammengefasst und können dann ein- und ausgeblendet werden -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home <span class="sr-only">(aktuell)</span></a></li>
         <li><a href="#">Shop</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MenÃ¼ <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menü <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Aktion</a></li>
             <li><a href="#">Andere Aktion</a></li>
