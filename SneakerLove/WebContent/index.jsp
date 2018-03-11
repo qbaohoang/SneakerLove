@@ -54,6 +54,7 @@
             <li><a href="#">Noch ein abgetrennter Link</a></li>
           </ul>
         </li>
+        <li><a href="Profil.jsp">Profil</a></li>
       </ul>
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
@@ -69,6 +70,8 @@
   </div><!-- /.container-fluid -->
 </nav>
 </div>
+<!-- ${KUNDE.vorname} -->
+
 </div>
 </body>
 </html>

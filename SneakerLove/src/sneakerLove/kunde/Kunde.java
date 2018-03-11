@@ -4,7 +4,7 @@ public class Kunde {
 
 	private String vorname;
 	private String nachname;
-	private String benutzername;
+	private String nutzername;
 	private String passwort;
 	private String email;
 // TODO: ID_Kunde
@@ -14,13 +14,12 @@ public class Kunde {
 
 	}
 
-	public Kunde(String vorname, String nachname, String benutzername, String passwort, String email, Adresse adresse) {
+	public Kunde(String vorname, String nachname, String email, String nutzername, String passwort) {
 		this.vorname = vorname;
 		this.nachname = nachname;
-		this.benutzername = benutzername;
+		this.nutzername = nutzername;
 		this.passwort = passwort;
 		this.email = email;
-		this.adresse = adresse;
 	}
 
 	public String getVorname() {
@@ -31,8 +30,8 @@ public class Kunde {
 		return nachname;
 	}
 
-	public String getBenutzername() {
-		return benutzername;
+	public String getNutzername() {
+		return nutzername;
 	}
 
 	public String getPasswort() {
